@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9dxjcm');
+  src:  url('fonts/icomoon.eot?9dxjcm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9dxjcm') format('truetype'),
+    url('fonts/icomoon.woff?9dxjcm') format('woff'),
+    url('fonts/icomoon.svg?9dxjcm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: "\e900";
+}
+.icon-newspaper:before {
+  content: "\e904";
+}
+.icon-image:before {
+  content: "\e90d";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-envelop:before {
+  content: "\e945";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-bookmark:before {
+  content: "\e9d2";
+}
+.icon-user-tie:before {
+  content: "\e976";
+}
+.icon-clipboard:before {
+  content: "\e9b8";
+}
